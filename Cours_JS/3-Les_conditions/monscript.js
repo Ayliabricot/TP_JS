@@ -1,10 +1,16 @@
-let number = 5;
-let text = '5';
-let isRainingToday = true;
+let age;
 
-console.log("Double == :", number==text);
-console.log("Triple === :", number===text);
+age = prompt('Quel est ton âge ?');
 
-if (isRainingToday){
-    console.log("Where is my umbrella?");
+if (0<=age && age<18){
+    alert("L'utilisateur a "+age+" an(s), il est mineur!");
+}
+else if(0<=age && age<62){
+    alert("L'utilisateur a "+age+" ans, il est majeur!");
+}
+else if(age>=62){
+    alert("L'utilisateur a "+age+" ans, il est majeur mais aussi retraité!");
+}
+else{
+    alert("Rentre un âge valide non mais yagoulou");
 }
