@@ -5,6 +5,6 @@ let isRainingToday = true;
 console.log("Double == :", number==text);
 console.log("Triple === :", number===text);
 
-if (isRainingToday===true){
+if (isRainingToday){
     console.log("Where is my umbrella?");
 }
