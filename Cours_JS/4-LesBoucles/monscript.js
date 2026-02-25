@@ -4,9 +4,11 @@ if (!(iterations>=0) || !(iterations<=100)){
     alert("La saisie n'est pas valide");
 }
 
-do{
-    somme+=iterations;
-    iterations--;
-}while(iterations>0);
+else{
+    do{
+        somme+=iterations;
+        iterations--;
+    }while(iterations>0);
 
-console.log(somme);
+    console.log(somme);
+}
