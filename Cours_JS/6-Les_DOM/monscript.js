@@ -33,6 +33,10 @@ function addProduct(){
         newLi.addEventListener('click', ()=>{
             newLi.classList.toggle("itemCheck");
         })
+        newLi.addEventListener('dblclick', ()=>{
+            liste.removeChild(newLi);
+            alert("Produit supprimé");
+        })
         liste.appendChild(newLi);
         myInput.value="";
     }
