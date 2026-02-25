@@ -2,8 +2,7 @@ let li = document.querySelector("#listeCourses li");
 
 
 li.addEventListener('click', ()=>{
-  li.style.backgroundColor="lightblue";
-  li.style.textDecoration="line-through";
+  li.classList.toggle("itemCheck");
 })
 
 
