@@ -1,14 +1,5 @@
-let somme = 0;
-let iterations = parseInt(prompt('Veuillez saisir un nombre entre 1 et 100 : '));
-if (!(iterations>=0) || !(iterations<=100)){
-    alert("La saisie n'est pas valide");
-}
+let tab=[1,2,3,4,5,6,7,8,9,10]
 
-else{
-    do{
-        somme+=iterations;
-        iterations--;
-    }while(iterations>0);
-
-    console.log(somme);
+for (var i=0; i<tab.length;i++){
+    console.log(tab[i]);
 }
