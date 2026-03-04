@@ -1,2 +1,3 @@
-let reponse = prompt('Quelle est ta série préférée ?');
-console.log(reponse);
+//TP3
+//let reponse = prompt('Quelle est ta série préférée ?');
+//console.log(reponse);
